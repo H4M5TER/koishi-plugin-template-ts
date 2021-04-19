@@ -16,7 +16,7 @@
     "bugs": "",
     "keywords": [
         "koishi",
-        "qqbot"
+        "chatbot"
     ],
     "dependencies": {
     },
@@ -24,9 +24,10 @@
         "koishi-core": "^3.3.1"
     },
     "devDependencies": {
-        "typescript": "^4.2.3",
-        "@tsconfig/node14": "^1.0.0"
-        "koishi-core": "^3.3.1"
+        "typescript": "^4.2.4",
+        "@tsconfig/node14": "^1.0.0",
+        "ts-node": "^9.1.1",
+        "koishi-core": "^3.9.1"
     },
     "scripts": {
         "build": "tsc"
